@@ -1,10 +1,12 @@
 # Getting-CleaningData-Project
 Getting and Cleaning Data Course Project
 
-The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set.
-Review criterialess 
-The submitted data set is tidy.
-The Github repo contains the required scripts.
-GitHub contains a code book that modifies and updates the available codebooks with the data to indicate all the variables and summaries calculated, along with units, and any other relevant information.
-The README that explains the analysis files is clear and understandable.
-The work submitted for this project is the work of the student who submitted it.
+This is the course project for the Getting and Cleaning Data Coursera course. The R script, run_analysis.R, does the following:
+
+Load the activity and feature info
+Loads both the training and test datasets, keeping only those columns which reflect a mean or standard deviation
+Loads the activity and subject data for each dataset, and merges those columns with the dataset
+Merges the two datasets
+Converts the activity and subject columns into factors
+Creates a tidy dataset that consists of the average (mean) value of each variable for each subject and activity pair.
+The end result is shown in the file 
