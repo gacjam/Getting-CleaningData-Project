@@ -13,6 +13,9 @@ This is the course project for the Getting and Cleaning Data Coursera course. Th
 
 -  Converts the activity and subject columns into factors
 
+-  Uses descriptive activity names to name the activities in the data set. Appropriately labels the data set with descriptive variable names.
+
 -  Creates a tidy dataset that consists of the average (mean) value of each variable for each subject and activity pair.
+
 
 The end result is shown in the file merge_data_avg_act_sub.txt
