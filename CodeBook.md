@@ -15,6 +15,13 @@ You should create one R script called run_analysis.R that does the following.
 4.	Appropriately labels the data set with descriptive variable names.
 5.	From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
+What you find in this repository
+*  ** CodeBook.md:** information about raw and tidy data set and elaboration made to transform them
+*  **	LICENSE:** license terms for text and code
+*  **	README.md:** this file
+*  **	run_analysis.R:** R script to transform raw data set in a tidy one
+
+
 The DATA
 =========
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix ‘t’ to denote time) were captured at a constant rate of 50 Hz. and the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) – both using a low pass Butterworth filter.
